@@ -15,10 +15,10 @@ Start:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	lda #0 			; A = 0
 	ldx #$FF		; X = #$FF
-
+	sta $FF			; Store A (o) to $FF before start looping to prevent the error by one
 MemLoop:
-	sta $0,X		; Store the value of A (0) to at the memory address in  $0 + X
 	dex				; X--
+	sta $0,X		; Store the value of A (0) to at the memory address in  $0 + X
 	bne	MemLoop		; Go back to MemLoop until Z-flag is set (0)
 
 
