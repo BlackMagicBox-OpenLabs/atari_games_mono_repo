@@ -1,2 +1,2 @@
-# atari_games_mono_repo
+# Homebrew games mono-repo
 Repository for my own Home brew Atari games
