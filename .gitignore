@@ -6,6 +6,7 @@ dasm-machines
 
 # Visual Studio Code
 .vscode
+*.*-workspace
 
 # Binaries
 bin
