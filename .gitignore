@@ -1,0 +1,16 @@
+# Headers for different consoles
+dasm-machines
+
+# Jetbrains
+.idea
+
+# Visual Studio Code
+.vscode
+
+# Binaries
+bin
+/**/*.bin
+
+
+# OSX
+.DS_Store
