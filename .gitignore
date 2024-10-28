@@ -11,6 +11,8 @@ dasm-machines
 # Binaries
 bin
 /**/*.bin
+/**/*.lst
+/**/*.sym
 
 
 # OSX
