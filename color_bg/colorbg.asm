@@ -6,7 +6,7 @@
 	SEG CODE
 	ORG $F000		; defines the origin of the ROM at $F000
 START:
-	CLEAN_START: 	; Macro to safety clear the memory
+	CLEAN_START 	; Macro to safety clear the memory
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;   Set the background color to Yellow
